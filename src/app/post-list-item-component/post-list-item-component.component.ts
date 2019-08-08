@@ -36,8 +36,8 @@ export class PostListItemComponentComponent implements OnInit {
   isScorePositif() { return this.loveIts > 0; }
   isScoreNegatif() { return this.loveIts < 0; }
   getColor() {
-    if (this.isScorePositif()) {return 'blue';}
-    if (this.isScoreNegatif()) {return 'yellow';}
+    if (this.isScorePositif()) {return 'green';}
+    if (this.isScoreNegatif()) {return 'red';}
     return 'black'; //default
 }
 }

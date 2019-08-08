@@ -32,7 +32,7 @@ export class PostListItemComponentComponent implements OnInit {
     this.last_update = new Date();
   }
 
-  //accesssors to simplify coding
+  //accesssors to simplify coding - i guess 
   isScorePositif() { return this.loveIts > 0; }
   isScoreNegatif() { return this.loveIts < 0; }
   getColor() {
